@@ -1,0 +1,10 @@
+Paquetews nuget para trabajar con entity framework .net Core
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.EntityFrameworkCore.Tools
+
+- Para generar model de BD con EntityFramework: Scaffold-DBContext "Server=CICERY;Database=VentaReal; User= sa;Password=sa;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+-----------------------------Angular
+
+compiling: ng serve
+create compoment: ng generate component <ComponentName>
+create services: ng generate service services/apicliente
